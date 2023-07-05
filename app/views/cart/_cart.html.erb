@@ -3,7 +3,7 @@
 
   <% if @cart.orderables.count > 0 %>
     <%= render "cart/orderable" %>
-    <p>Total: <%= @cart.total %>
+    <p>Total: <%= @cart.total %></p>
        <% else %>
     <p>Cart is empty</p>
   <% end %>
